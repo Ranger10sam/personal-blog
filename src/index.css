@@ -1,0 +1,39 @@
+
+body {
+  font-family: 'Shantell sans', sans-serif;
+  margin: 0;
+  padding: 40px;
+}
+
+
+h1{
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0;
+}
+h3{
+  font-size: 24px;
+  margin: 0;
+}
+p{
+  line-height: 25px;
+}
+
+
+@media (min-width: 768px) {
+  h1{
+    font-size: 52px;
+  }
+  h3{
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1{
+    font-size: 52px;
+  }
+  h3{
+    font-size: 32px;
+  }
+}
