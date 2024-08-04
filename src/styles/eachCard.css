@@ -11,9 +11,9 @@
 }
 .project-grid {
     display: grid;
-    gap: 40px; /* Space between cards */
+    gap: 20px; /* Space between cards */
     grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile */
-    padding: 40px;
+    padding: 20px;
 }
 
     /* Style for each card */
