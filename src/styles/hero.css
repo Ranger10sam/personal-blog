@@ -16,7 +16,7 @@
 
 h3{
     font-weight: 400;
-    color: #9A9A9A;
+    color: #D6CCC2;
 }
 
 .hero{
@@ -30,10 +30,18 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../assets/images/blob.svg);
+    background-repeat: no-repeat;
 }
 .hero-image img{
     width: 100%;
     height: auto;
+}
+.dark-mode .hero-image img{
+    content: url(../assets/images/Blogging-dark.svg);
+}
+.dark-mode h3{
+    color: #B8DBD9;
 }
 
 @media (min-width: 768px) {

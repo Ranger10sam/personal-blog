@@ -36,6 +36,46 @@ p{
 }
 
 
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #222831; /* Dark mode background */
+  color: #e0e0e0; /* Dark mode text color */
+}
+
+/* Dark Mode Header */
+.dark-mode header {
+  background-color: #333333; /* Dark mode header background */
+  color: #f0f0f0; /* Dark mode header text color */
+}
+
+/* Dark Mode Links */
+.dark-mode a {
+  color: #bb86fc; /* Dark mode link color */
+}
+
+/* Dark Mode Buttons */
+.dark-mode button {
+  background-color: #444444; /* Dark mode button background */
+  color: #e0e0e0; /* Dark mode button text color */
+}
+
+/* Dark Mode Cards/Containers */
+.dark-mode .card, .dark-mode .container {
+  background-color: #222831; /* Dark mode card/container background */
+  border: 1px solid #444444; /* Dark mode border color */
+  color: #e0e0e0; /* Dark mode text color */
+}
+
+/* Dark Mode Input Fields */
+.dark-mode input, .dark-mode textarea {
+  background-color: #333333; /* Dark mode input background */
+  color: #e0e0e0; /* Dark mode input text color */
+  border: 1px solid #444444; /* Dark mode input border color */
+}
+
+
+
+/* Add more styles as needed for different elements */
 @media (min-width: 768px) {
   h1{
     font-size: 52px;

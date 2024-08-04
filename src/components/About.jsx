@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <div className="about">
-        <h1>About Us</h1>
+        <h1>About Me</h1>
         <p>
           Hi, I&apos;m Samprit, a passionate software engineer with a love for
           innovation and exploring new technologies. With a background in

@@ -1,7 +1,7 @@
 import Navbar from './Navbar.jsx';
 import useVisibility from './useVisibility';
 import '../styles/hero.css';
-import heroImage from "../assets/images/heroImage.svg";
+import heroImage from "../assets/images/Blogging.svg";
 
 const Hero = () => {
   const [heroRef, isHeroVisible] = useVisibility();
