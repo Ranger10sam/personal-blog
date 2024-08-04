@@ -1,4 +1,6 @@
-import '../styles/hero.css'
+
+import '../styles/hero.css';
+import heroImage from "../assets/images/heroImage.svg"
 
 const Hero = () => {
   return (
@@ -10,7 +12,7 @@ const Hero = () => {
         <h3 className="">Welcome to my Blog!</h3>
       </div>
       <div className="hero-image">
-        <img className="" src="./src/assets/heroImage.svg" alt="heroImage"/>
+        <img className="" src={heroImage} alt="heroImage"/>
       </div>
     </div>
     </>
