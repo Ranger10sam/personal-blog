@@ -1,2 +1,15 @@
 
-  
+.about{
+    padding: 0 40px
+}
+.about p{
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}

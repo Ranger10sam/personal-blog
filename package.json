@@ -1,7 +1,7 @@
 {
   "name": "personal-blog",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://ranger10sam.github.io/personal-blog",
   "type": "module",
   "scripts": {
@@ -13,8 +13,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^5.16.6",
+    "prop-types": "^15.8.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-awesome-slider": "^4.1.0",
+    "react-dom": "^18.3.1",
+    "swiper": "^11.1.9"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
@@ -26,6 +32,10 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "gh-pages": "^6.1.1",
+    "sass": "^1.77.8",
     "vite": "^5.3.4"
+  },
+  "rules": {
+    "react/prop-types": "off"
   }
 }

@@ -1,0 +1,91 @@
+@keyframes clickEffect {
+    0%{
+        transition: transform 0.3s, box-shadow rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+    50%{
+        transition: transform 0.3s, box-shadow rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 10px 40px -10px;
+    }
+    100%{
+        transition: transform 0.3s, box-shadow rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+}
+.project-grid {
+    display: grid;
+    gap: 40px; /* Space between cards */
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile */
+    padding: 40px;
+}
+
+    /* Style for each card */
+.card-container {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.card-container-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-container h3{
+    font-size: 20px;
+    margin: 10px 20px;
+    color: black;
+}
+
+.css-1xylxj1-MuiTypography-root-MuiLink-root{
+    text-decoration: none !important;
+}
+.card-container-p{
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    margin: 10px 20px;
+    font-size: 12px;
+}
+
+/* Hover effect for cards */
+.card-container:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 10px 40px -10px; /* Darker SWshadow on hover */
+}
+.card-container :focus{
+    transition: clickEffect 0.5s;
+}
+
+/* Media queries for tablet and desktop */
+@media (min-width: 768px) {
+    .project-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for tablets and up */
+        padding: 40px;
+        gap: 50px;
+    }
+    .mobile-img1 .card-container-img {
+        content: url('../assets/images/proj1.jpg');
+      }
+      .mobile-img2 .card-container-img {
+        content: url('../assets/images/proj2.jpg');
+      }
+      .mobile-img3 .card-container-img {
+        content: url('../assets/images/proj1.jpg');
+      }
+      .mobile-img4 .card-container-img {
+        content: url('../assets/images/proj2.jpg');
+      }
+      .mobile-img5 .card-container-img {
+        content: url('../assets/images/proj1.jpg');
+      }
+      .mobile-img6 .card-container-img {
+        content: url('../assets/images/proj2.jpg');
+      }
+}
+
+@media (min-width: 1024px) {
+    .project-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for desktops */
+    }
+}

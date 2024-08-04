@@ -1,0 +1,11 @@
+.slider-container{
+    width: 100%;
+    margin: 30px 0px;
+}
+.slider-container h1{
+    padding: 40px;
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+}
